@@ -47,10 +47,10 @@ const location = useLocation();
         onMouseMove={handleMouseMove}
       >
         <div className="tabs">
-          <a href="/images/nzlvga_poster.jpeg" target="_blank" rel="noopener noreferrer"><div key="0" className="tab">邀请赛程序</div></a>
-          <Link to="/schedule"><div key="1" className={`tab ${location.pathname === '/schedule' ? 'tab_active' : ''}`}>赛程安排</div></Link>
+          <Link to="/presentation"><div key="0" className={`tab ${location.pathname === '/presentation' ? 'tab_active' : ''}`}>邀请赛会序</div></Link>
+          <Link to="/akl"><div key="1" className={`tab ${location.pathname === '/akl' ? 'tab_active' : ''}`}>奥克兰站</div></Link>
           <Link to="/syd"><div key="2" className={`tab ${location.pathname === '/syd' ? 'tab_active' : ''}`}>悉尼站</div></Link>
-          <Link to="/akl"><div key="3" className={`tab ${location.pathname === '/akl' ? 'tab_active' : ''}`}>奥克兰站</div></Link>
+          <Link to="/schedule"><div key="3" className={`tab ${location.pathname === '/schedule' ? 'tab_active' : ''}`}>赛程安排</div></Link>
           <Link to="/organizers"><div key="4" className={`tab ${location.pathname === '/organizers' ? 'tab_active' : ''}`}>主办协办</div></Link>
           <a href="/images/nzlvga_sponsor.jpeg" target="_blank" rel="noopener noreferrer"><div key="5" className="tab">赞助商</div></a>
           <Link to="/stream"><div key="6" className={`tab ${location.pathname === '/stream' ? 'tab_active' : ''}`}>直播平台</div></Link>
