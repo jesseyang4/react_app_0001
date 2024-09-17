@@ -148,8 +148,3 @@ float: right;
 display:none;
 }
 }
-.banner_text_brushstroke_bg {
-background-image: url(../assets/images/abstract-brush.png);
-background-repeat: no-repeat;
-    background-size: 960px 220px;
-}
