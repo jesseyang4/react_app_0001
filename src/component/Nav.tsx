@@ -14,14 +14,14 @@ const Nav = () => {
             <div className="box-2 gradient_1">
               <nav className="mt0_xs  mt0_sm mt0_md" style={{margin:"0px",float:"none"}}>
                 <ul className="header_list_0 header_list_xs header_list_sm header_list_md">
-                  <li className="ml1_xs ml1_sm ml1_md">
-<a href="/images/nzlvga_poster.jpeg" target="_blank" rel="noopener noreferrer">
-                      邀请赛程序<span className="over_line"></span>
-</a>
+                  <li className={`ml1_xs ml1_sm ml1_md ${location.pathname === '/presentation' ? 'header_list_0_li_active' : ''}`}>
+<Link to="/presentation">
+                      邀请赛会序<span className="over_line"></span>
+</Link>
                   </li>
-                  <li className={location.pathname === '/schedule' ? 'header_list_0_li_active' : ''}>
-                    <Link to="/schedule">
-                      赛程安排<span className="over_line"></span>
+                  <li className={location.pathname === '/akl' ? 'header_list_0_li_active' : ''}>
+                    <Link to="/akl">
+                    奥克兰站<span className="over_line"></span>
                     </Link>
                   </li>
                   <li className={location.pathname === '/syd' ? 'header_list_0_li_active' : ''}>
@@ -29,9 +29,9 @@ const Nav = () => {
                     悉尼站<span className="over_line"></span>
                     </Link>
                   </li>
-                  <li className={location.pathname === '/akl' ? 'header_list_0_li_active' : ''}>
-                    <Link to="/akl">
-                    奥克兰站<span className="over_line"></span>
+                  <li className={location.pathname === '/schedule' ? 'header_list_0_li_active' : ''}>
+                    <Link to="/schedule">
+                      赛程安排<span className="over_line"></span>
                     </Link>
                   </li>
                   <li className={`ml2_xs ml2_sm ml2_md ${location.pathname === '/organizers' ? 'header_list_0_li_active' : ''}`}>

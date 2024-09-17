@@ -19,6 +19,7 @@ import PracticePage from "./pages/PracticePage";
 import HomePage from "./pages/HomePage";
 import PDFPage from "./pages/PDFPage";
 import PDF2Page from "./pages/PDF2Page";
+import PDF3Page from "./pages/PDF3Page";
 import Index2Page from "./pages/Index2Page";
 import Index3Page from "./pages/Index3Page";
 import Index4Page from "./pages/Index4Page";
@@ -59,9 +60,9 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
           <Route path="/schedule" element={<Index2Page />} />
-          <Route path="/syd" element={<Index3Page />} />
-          <Route path="/akl" element={<Index3Page />} />
-          <Route path="/pdf" element={<PDFPage />} />
+          <Route path="/syd" element={<PDF2Page />} />
+          <Route path="/akl" element={<PDF3Page />} />
+          <Route path="/presentation" element={<PDFPage />} />
           <Route path="/pdf2" element={<PDF2Page />} />
           <Route path="/stream" element={<Index4Page />} />
           <Route path="/organizers" element={<Index5Page />} />
