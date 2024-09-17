@@ -1,0 +1,65 @@
+/****accordion****/
+#accordion {
+	padding: 0;
+	margin: 13px 0px -28px 0;
+}
+#accordion>ul>li:first-child>a {
+	margin-top: 0;
+}
+#accordion>ul>li {
+	padding-bottom: 14px;
+}
+#accordion h5{background: url("../images/hline.png") 0 top repeat-x;}
+#accordion h5 a {
+	margin: 0px 0px 0px 0px;
+	background: url('../images/accrod_title.png') 1px -160px no-repeat;
+	text-transform: uppercase;
+	color: #141414;
+	font:bold 12px/16px Arial, sans-serif;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+#accordion .ui-accordion-content {
+	border-top: none;
+	border-left: none;
+	padding: 0px 0px 16px 0px;
+	width: 100%;
+	margin-left: 0px;
+	/*margin-top: -5px;*/
+}
+#accordion h5.ui-state-active a {
+	background-position: 1px 21px;
+}
+#accordion h5 a:hover {
+	color: #fff;
+	text-decoration: none !important;
+}
+#accordion .ui-accordion-content a:hover {
+	text-decoration: underline;
+}
+#accordion .ui-accordion-content p {
+	padding-top: 0px;
+	padding-left: 0px;
+	color: #797d80;
+}
+#accordion .ui-accordion-content p a{
+	color: #fff;
+	text-decoration: underline;
+}
+#accordion .ui-accordion-content p a:hover{
+	color: #aaa;
+}
+h5 {
+	width: 100%;
+	/*border: 1px solid #e6e6e6;*/
+	width: 100%;
+}
+h5 a {
+	padding-left: 19px;
+}
+h5.ui-state-active a{
+	padding-bottom: 11px;
+	/*background: #f9f9f9 !important;*/
+	/*border: 1px solid #e6e6e6;*/
+}

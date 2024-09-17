@@ -1,0 +1,12 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+.box-1, .box-2, .box-3, .box-4, .gradient_1, .slider_wrapper{ behavior:url(js/PIE.htc);}
+
+a.magnifier2:hover .zoom{
+	display: block;
+}
+a.magnifier2 .zoom{
+	display: none;
+}
+
+body{min-width: 1000px;}

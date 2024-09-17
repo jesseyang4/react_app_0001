@@ -1,0 +1,16 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+.mt10-xs {
+margin-top: 10px;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+.mt10-sm {
+margin-top: 10px;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px)  {
+.mt10-md {
+margin-top: 10px;
+}
+}
+

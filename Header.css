@@ -1,0 +1,85 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+.sf-menu-xs {
+display: block ;
+}
+.sf-menu-fixed-xs {
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+.sf-menu-div-margin-xs {
+height: 90px;
+}
+.logo-xs {
+    background: url('../assets/images/nzlvga_logo.png') no-repeat center;
+    background-size: 45px;
+}
+.display-none-xs {
+display: none;
+}
+.pb_0_xs {
+padding-bottom: 10px;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+.sf-menu-sm {
+display: block ;
+}
+ul.sf-menu-sm>li>a {
+font-size: 7px;
+}
+.sf-menu-fixed-sm {
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+.sf-menu-div-margin-sm {
+height: 95px;
+}
+.logo-sm {
+    background: url('../assets/images/nzlvga_logo.png') no-repeat center;
+    background-size: 45px;
+}
+.display-none-sm {
+display: none;
+}
+.pb_0_sm {
+padding-bottom: 10px;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px)  {
+.sf-menu-md {
+display: block ;
+}
+ul.sf-menu-md>li>a {
+font-size: 7px;
+}
+.sf-menu-fixed-md {
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+.sf-menu-div-margin-md {
+height: 95px;
+}
+.logo-md {
+    background: url('../assets/images/nzlvga_logo.png') no-repeat center;
+    background-size: 45px;
+}
+.display-none-md {
+display: none;
+}
+.pb_0_md {
+padding-bottom: 10px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+.display-none-lg {
+display: none;
+}
+}
+@media only screen and (min-width: 1024px) {
+.display-none-xl {
+display: none;
+}
+}

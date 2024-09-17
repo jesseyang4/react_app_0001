@@ -1,0 +1,78 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+.container_12 .grid_12-xs {
+width: 100%;
+}
+.container_12 .grid_4-xs {
+width: 100%;
+}
+.container_12 .alpha-xs {
+margin-left: 0;
+}
+.container_12 .omega-xs {
+margin-right: 0;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+.container_12 .grid_12-sm {
+width: 100%;
+}
+ .container_12 .grid_4-sm {
+width: 100%;
+}
+.container_12 .alpha-sm {
+margin-left: 0;
+}
+.container_12 .omega-sm {
+margin-right: 0;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px)  {
+.container_12 .grid_12-md {
+width: 100%;
+}
+.container_12 .grid_4-md {
+width: 100%;
+}
+.container_12 .alpha-md {
+margin-left: 0;
+}
+.container_12 .omega-md {
+margin-right: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+.container_12 .grid_12-lg {
+width: 100%;
+}
+.container_12 .grid_4-lg {
+width: 236px;
+float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container_12 .alpha-lg {
+margin-left: 0;
+}
+.container_12 .omega-lg {
+margin-right: 0;
+}
+}
+@media only screen and (min-width: 1024px) {
+.container_12 .grid_12-xl {
+width: 100%;
+}
+.container_12 .grid_4-xl {
+width: 300px;
+float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container_12 .alpha-lg {
+margin-left: 0;
+}
+.container_12 .omega-xl {
+margin-right: 0;
+}
+}
