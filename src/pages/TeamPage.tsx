@@ -1,6 +1,6 @@
 import React from "react";
 import nzlvgaBanner from "../assets/images/nzlvga_banner3.jpeg";
-import logoNzwsa from "../assets/images/logo_nzwsa.png";
+import logoNzwsa from "../assets/images/sponsor_logo/s5_6.jpeg";
 import "./VideoPage.css";
 import "./TeamPage.css";
 
@@ -86,11 +86,12 @@ function IndexVideoBPage() {
               <p className="p_text_body" style={{ marginTop: "20px" }}>
                 成立于2020年，由一群热爱排球、气排球运动，遍布奥克兰的中青年球员组成，是新西兰排协VNZ-WECA注册排球俱乐部，多年来一直致力于为广大华裔排球爱好者提供训练交流切磋的平台，提升华裔运动员在本地排球运动中的表现。
               </p>
-<div className="team-page-display-flex">
-              <span><p className="p_text_subheader p_text_header_white">
-                新西兰万方排球俱乐部 :
-              </p></span>
-<span><img src={logoNzwsa} alt="" style={{height:"45px"}} /></span></div>
+              <div className="team-page-display-flex">
+                <span><p className="p_text_subheader p_text_header_white">
+                  新西兰万方排球俱乐部 :
+                </p></span>
+                <span><img src={logoNzwsa} alt="" style={{ height: "45px" }} /></span>
+              </div>
               <p className="p_text_body" style={{ marginTop: "20px" }}>
 新西兰万方排球俱乐部自2006年成立以来，已经走过了18年的辉煌历程。俱乐部的成立得益于一群热爱排球的人士的共同倡议和努力，其中包括创始人万方集团总经理郭宏先生，他的领导和远见为俱乐部奠定了坚实的基础。前国家男排队员蒋杰先生的专业指导，以及在中国、澳大利亚和新西兰三地执教的资深排球教练姜虹先生的经验，都对俱乐部的发展起到了关键作用。现任队长李始明先生，作为球队的领导者，不仅在场上展现出卓越的领导力，带领球队在各项赛事中取得优异成绩，同时在场下积极推动团队的团结和进步，为俱乐部的发展做出了巨大贡献。<br /><br />
 他们对排球的热爱和对运动精神的追求，得到了当地社区的广泛支持和响应。在这样一个充满活力的背景下，俱乐部迅速成长，从最初的十几名成员发展到今天拥有男女队员近百人的规模。<br /><br />

@@ -31,9 +31,12 @@ import IndexVideo2BPage from "./pages/IndexVideo2BPage";
 import IndexVideo3Page from "./pages/IndexVideo3Page";
 import IndexVideo3BPage from "./pages/IndexVideo3BPage";
 import IndexVideoLivePage from "./pages/IndexVideoLivePage";
+import ScorePage from './pages/ScorePage';
+import SponsorPage from './pages/SponsorPage';
 import Starlight1Page from "./pages/Starlight1Page";
 import Starlight2Page from "./pages/Starlight2Page";
 import Starlight3Page from "./pages/Starlight3Page";
+import StreamPage from "./pages/StreamPage";
 import VideoPage from "./pages/VideoPage";
 
 declare global {
@@ -48,10 +51,10 @@ function App() {
   return (
     <div>
       <Router>
-      <Header />
-      <Banner />
-<Nav />
-<Tabs />
+        <Header />
+        <Banner />
+        <Nav />
+        <Tabs />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -64,8 +67,8 @@ function App() {
           <Route path="/akl" element={<PDF3Page />} />
           <Route path="/presentation" element={<PDFPage />} />
           <Route path="/pdf2" element={<PDF2Page />} />
-          <Route path="/stream" element={<Index4Page />} />
-          <Route path="/organizers" element={<Index5Page />} />
+          {/* <Route path="/organizers" element={<Index5Page />} /> */}
+          <Route path="/score" element={<ScorePage />} />
           <Route path="/indexVideo" element={<IndexVideoPage />} />
           <Route path="/indexVideoB" element={<IndexVideoBPage />} />
           <Route path="/indexVideo2" element={<IndexVideo2Page />} />
@@ -73,9 +76,11 @@ function App() {
           <Route path="/indexVideo3" element={<IndexVideo3Page />} />
           <Route path="/indexVideo3B" element={<IndexVideo3BPage />} />
           <Route path="/indexVideoLive" element={<IndexVideoLivePage />} />
+          <Route path="/acknowledge" element={<SponsorPage />} />
           <Route path="/starlight1" element={<Starlight1Page/>} />
           <Route path="/starlight2" element={<Starlight2Page/>} />
           <Route path="/starlight3" element={<Starlight3Page/>} />
+          <Route path="/stream" element={<StreamPage/>} />
             <Route
               key="1d5"
               path={`/video/1d1`}
