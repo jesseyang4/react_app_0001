@@ -6,9 +6,11 @@ import Header from "./component/Header";
 import Banner from "./component/Banner";
 import Nav from "./component/Nav";
 import Tabs from "./component/Tabs";
+import TabsSponsors from "./component/TabsSponsors";
 import Slideshow from "./component/Slideshow";
 import Articles from "./component/Articles";
 import Footer from "./component/Footer";
+import ScrollToTop from "./component/ScrollToTop";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import AboutPage from "./pages/AboutPage";
@@ -51,6 +53,7 @@ function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <Header />
         <Banner />
         <Nav />
@@ -102,6 +105,7 @@ function App() {
               element={<VideoPage embedSrc="https://www.youtube.com/embed/j37wr_ZD_w0?si=zH9BOCBmzQ3yc_fl" title="《半决赛之3、4名争夺赛》新西兰第一届星光杯气排球锦标赛" />}
             />
         </Routes>
+        {/* <TabsSponsors /> */}
       <Footer />
       </Router>
     </div>
