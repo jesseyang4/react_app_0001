@@ -41,7 +41,7 @@ const Nav = () => {
               </li>
               <li className={location.pathname === '/acknowledge' ? 'header_list_0_li_active' : ''}>
                 <Link to="/acknowledge">
-                  赞助支持<span className="over_line"></span>
+                  支持单位<span className="over_line"></span>
                 </Link>
               </li>
               <li className={`last ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
