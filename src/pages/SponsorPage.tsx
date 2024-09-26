@@ -6,7 +6,7 @@ import s1_1 from '../assets/images/sponsor_logo/s1_1.png';
 import s1_2 from '../assets/images/sponsor_logo/s1_2.jpg';
 import s1_3 from '../assets/images/sponsor_logo/s1_3_a_2_1.jpg';
 import s2_1 from '../assets/images/sponsor_logo/s1_3_a_2_1.jpg';
-import s2_2 from '../assets/images/sponsor_logo/s2_2.png';
+import s2_2 from '../assets/images/sponsor_logo/s2_2.jpeg';
 import s3_1 from '../assets/images/sponsor_logo/s3_1.jpeg';
 import s3_2 from '../assets/images/sponsor_logo/s3_2.png';
 import s3_3 from '../assets/images/sponsor_logo/s3_3.jpg';
@@ -63,7 +63,7 @@ import s8_26 from '../assets/images/sponsor_logo/s8_26.jpg';
 import s8_27 from '../assets/images/sponsor_logo/s8_27.jpg';
 import s9_1 from '../assets/images/sponsor_logo/s9_1.jpg';
 import s9_2 from '../assets/images/sponsor_logo/s9_2.jpg';
-import s9_3 from '../assets/images/sponsor_logo/s9_3.jpg';
+import s9_3 from '../assets/images/sponsor_logo/s9_3.jpeg';
 import s9_4 from '../assets/images/sponsor_logo/s9_4.png';
 import s9_4b from '../assets/images/sponsor_logo/s9_4b.png';
 import s9_5 from '../assets/images/sponsor_logo/s9_5.png';
@@ -95,18 +95,23 @@ function Index2Page() {
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 主办 | Host
               </p>
+              <SponsorLogoEntry sponsorNameCn="新西兰气排球协会总会" sponsorNameEn="New Zealand Light Volleyball General Association" imageSrc={s1_3}  linkPath="/about" />
               <SponsorLogoEntry sponsorNameCn="新西兰华人妇女联合基金会" sponsorNameEn="Chinese Women Association of New Zealand" imageSrc={s1_1} />
               <SponsorLogoEntry sponsorNameCn="新西兰文化艺术基金会" sponsorNameEn="New Zealand Culture And Arts Foundation" imageSrc={s1_2} />
-              <SponsorLogoEntry sponsorNameCn="新西兰气排球协会总会" sponsorNameEn="New Zealand Light Volleyball General Association" imageSrc={s1_3}  linkPath="/about" />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 承办 | Organizer
               </p>
               <SponsorLogoEntry sponsorNameCn="奥克兰- 新西兰气排球协会总会New Zealand Light Volleyball General Association" imageSrc={s2_1} linkPath="/about" />
-              <SponsorLogoEntry sponsorNameCn="悉   尼 -  澳大利亚群英气排球俱乐部 Australia Heroes Light Volleyball Club" imageSrc={s2_2} />
+              <SponsorLogoEntry sponsorNameCn="悉   尼 -  澳大利亚群英气排球俱乐部 Australia Heroes Light Volleyball Club" imageSrc={s2_2} linkPath="/aboutHeroes" />
+              
+              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
+                特别支持 | Special Support
+              </p>
+              <SponsorLogoEntry sponsorNameCn="中国文化中心-奥克兰 China Cultural Centre" imageSrc={s4b_1} />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
-                特别协办 | Special Support
+                特别协办 | Special Co-Organizer
               </p>
               <SponsorLogoEntry sponsorNameCn="中山大学澳洲校友会 Sun Yat-Sen University Australia Alumni Association Incorporated" imageSrc={s3_1} />
               <SponsorLogoEntry sponsorNameCn="中山大学新西兰校友会 Sun Yat-Sen University Alumni Association Of New Zealand" imageSrc={s3_2} />
@@ -119,11 +124,6 @@ function Index2Page() {
               <SponsorLogoEntry sponsorNameCn="PlaceMakers" imageSrc={s4_1} />
               {/* TODO: make the small height of above img 76% */}
               <SponsorLogoEntry sponsorNameCn="新西兰华人建筑业协会 New Zealand Chinese Building Industry Association(NZCBIA)" imageSrc={s4_2} />
-
-              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
-                特别支持 | Special Support
-              </p>
-              <SponsorLogoEntry sponsorNameCn="中国文化中心-奥克兰 China Cultural Centre" imageSrc={s4b_1} />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 协办 | Co-Organizer
@@ -163,7 +163,7 @@ function Index2Page() {
               </p>
               <SponsorLogoEntry sponsorNameCn="世界轻排联盟 Australian WLVL.ORG" imageSrc={s8_1} />
               <SponsorLogoEntry sponsorNameCn="澳大利亚女子气排球俱乐部 Australian Light Volleyball Women‘s Club" imageSrc={s8_2} />
-              <SponsorLogoEntry sponsorNameCn="Cl澳大利亚沙拉铿锵玫瑰队Australian SHALA Light Volleyball Women’s Team" imageSrc={s8_3} />
+              <SponsorLogoEntry sponsorNameCn="澳大利亚沙拉铿锵玫瑰队Australian SHALA Light Volleyball Women’s Team" imageSrc={s8_3} />
               <SponsorLogoEntry sponsorNameCn="澳大利亚悉尼火星队Australian Sydney Mars Team" imageSrc={s8_4} />
               <SponsorLogoEntry sponsorNameCn="中国大连风筝冲浪俱乐部China DaLian Kite Surfing Club" imageSrc={s8_5} />
               <SponsorLogoEntry sponsorNameCn="新西兰广东高校联盟羽毛球俱乐部GDUAANZ" imageSrc={s8_6} />

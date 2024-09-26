@@ -14,6 +14,7 @@ import ScrollToTop from "./component/ScrollToTop";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import AboutPage from "./pages/AboutPage";
+import AboutHeroesPage from "./pages/AboutHeroesPage";
 import ContactPage from "./pages/ContactPage";
 import LocationPage from "./pages/LocationPage";
 import TeamPage from "./pages/TeamPage";
@@ -61,6 +62,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/aboutHeroes" element={<AboutHeroesPage />} />
           <Route path="/practice" element={<PracticePage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/contact" element={<ContactPage />} />

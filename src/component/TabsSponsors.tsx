@@ -7,7 +7,7 @@ import s1_1 from '../assets/images/sponsor_logo/s1_1.png';
 import s1_2 from '../assets/images/sponsor_logo/s1_2.jpg';
 import s1_3 from '../assets/images/sponsor_logo/s1_3_a_2_1.jpg';
 import s2_1 from '../assets/images/sponsor_logo/s1_3_a_2_1.jpg';
-import s2_2 from '../assets/images/sponsor_logo/s2_2.png';
+import s2_2 from '../assets/images/sponsor_logo/s2_2.jpeg';
 import s3_1 from '../assets/images/sponsor_logo/s3_1.jpeg';
 import s3_2 from '../assets/images/sponsor_logo/s3_2.png';
 import s3_3 from '../assets/images/sponsor_logo/s3_3.jpg';
@@ -64,7 +64,7 @@ import s8_26 from '../assets/images/sponsor_logo/s8_26.jpg';
 import s8_27 from '../assets/images/sponsor_logo/s8_27.jpg';
 import s9_1 from '../assets/images/sponsor_logo/s9_1.jpg';
 import s9_2 from '../assets/images/sponsor_logo/s9_2.jpg';
-import s9_3 from '../assets/images/sponsor_logo/s9_3.jpg';
+import s9_3 from '../assets/images/sponsor_logo/s9_3.jpeg';
 import s9_4 from '../assets/images/sponsor_logo/s9_4.png';
 import s9_4b from '../assets/images/sponsor_logo/s9_4b.png';
 import s9_5 from '../assets/images/sponsor_logo/s9_5.png';
@@ -121,17 +121,17 @@ const location = useLocation();
         onMouseMove={handleMouseMove}
       >
         <div className="tabs">
+          <TabsSponsorImageContainer imagePath={s1_3} />
           <TabsSponsorImageContainer imagePath={s1_1} />
           <TabsSponsorImageContainer imagePath={s1_2} />
-          <TabsSponsorImageContainer imagePath={s1_3} />
           <TabsSponsorImageContainer imagePath={s2_2} />
+          <TabsSponsorImageContainer imagePath={s4b_1} />
           <TabsSponsorImageContainer imagePath={s3_1} />
           <TabsSponsorImageContainer imagePath={s3_2} />
           <TabsSponsorImageContainer imagePath={s3_3} />
           <TabsSponsorImageContainer imagePath={s3_4} />
           <TabsSponsorImageContainer imagePath={s4_1} />
           <TabsSponsorImageContainer imagePath={s4_2} />
-          <TabsSponsorImageContainer imagePath={s4b_1} />
           <TabsSponsorImageContainer imagePath={s5_1a} />
           <TabsSponsorImageContainer imagePath={s5_1} />
           <TabsSponsorImageContainer imagePath={s5_2} />
