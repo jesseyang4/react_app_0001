@@ -1,0 +1,28 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .sch_dn_xs {
+        display: none;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .sch_dn_sm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .sch_dn_md {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .sch_dn_lg {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sch_dn_xl {
+        display: none;
+    }
+}

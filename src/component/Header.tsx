@@ -66,10 +66,10 @@ const Header = () => {
           </nav>
 
           <div className="social pb_0_xs pb_0_sm pb_0_md">
-            <a href="https://www.youtube.com/@新西兰气排球协会-z9v">
+            <a href="https://www.youtube.com/@新西兰气排球协会-z9v" target="_blank" rel="noopener noreferrer">
               <img src={soc1Icon} alt="" />
             </a>
-            <a href="https://www.facebook.com/share/eehx8JPY2jLiBmQf/?mibextid=LQQJ4d">
+            <a href="https://www.facebook.com/share/eehx8JPY2jLiBmQf/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
               <img src={soc2Icon} alt="" />
             </a>
             <a href="#">

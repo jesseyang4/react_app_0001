@@ -46,7 +46,7 @@ const Nav = () => {
               </li>
               <li className={`last ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
                 <Link to="/stream">
-                  直播平台<span className="over_line"></span>
+                直播回放间<span className="over_line"></span>
                 </Link>
               </li>
             </ul>

@@ -74,7 +74,6 @@ import s9_8 from '../assets/images/sponsor_logo/s9_8.png';
 import s9_9 from '../assets/images/sponsor_logo/s9_9.jpg';
 import s9_10 from '../assets/images/sponsor_logo/s9_10.jpg';
 import s9_11 from '../assets/images/sponsor_logo/s9_11.jpg';
-import s9_12 from '../assets/images/sponsor_logo/s9_12.jpg';
 import s9_13 from '../assets/images/sponsor_logo/s9_13.jpg';
 
 const Tabs: React.FC = () => {
@@ -190,7 +189,6 @@ const location = useLocation();
           <TabsSponsorImageContainer imagePath={s9_9} />
           <TabsSponsorImageContainer imagePath={s9_10} />
           <TabsSponsorImageContainer imagePath={s9_11} />
-          <TabsSponsorImageContainer imagePath={s9_12} />
           <TabsSponsorImageContainer imagePath={s9_13} />
         </div>
       </div>

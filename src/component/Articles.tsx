@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import externalImg1 from '../assets/images/external_img1.jpeg';
+import externalImg2 from '../assets/images/external_img2.jpg';
+import externalImg3 from '../assets/images/external_img3.jpg';
 import '../assets/css/style.css';
 import './Articles.css';
 import { Link } from "react-router-dom";
@@ -38,7 +41,7 @@ function Articles() {
                     </div>
 
                     <div className="wrapper hline2">
-                        <a href="https://www.meipian.cn/3hg4geav?share_depth=2&s_uid=21488523&share_to=group_singlemessage&first_share_to=singlemessage&first_share_uid=41713200" target="_blank" rel="noopener noreferrer"><img src="images/page1_pic3.jpg" alt="" className="no_resize img1 /" /></a>
+                        <a href="https://www.meipian.cn/3hg4geav?share_depth=2&s_uid=21488523&share_to=group_singlemessage&first_share_to=singlemessage&first_share_uid=41713200" target="_blank" rel="noopener noreferrer"><img src={externalImg1} alt="" className="no_resize img1 /"  width="118" /></a>
                         <div className="box">
                             <p className="txt1">
                                 <a href="https://www.meipian.cn/3hg4geav?share_depth=2&s_uid=21488523&share_to=group_singlemessage&first_share_to=singlemessage&first_share_uid=41713200" target="_blank" rel="noopener noreferrer"><span className="color2 txt_date">2021年3月20日</span><br /></a>
@@ -80,7 +83,7 @@ function Articles() {
                     </div>
 
                     <div className="wrapper hline2">
-                        <a href="http://auckland.china-consulate.gov.cn/chn/xwdt/202211/t20221115_10975030.htm" target="_blank" rel="noopener noreferrer"><img src="http://auckland.china-consulate.gov.cn/chn/xwdt/202211/W020221115193726734800.jpg" alt="" className="no_resize img1" width="118" /></a>
+                        <a href="http://auckland.china-consulate.gov.cn/chn/xwdt/202211/t20221115_10975030.htm" target="_blank" rel="noopener noreferrer"><img src={externalImg2} alt="" className="no_resize img1" width="118" /></a>
                         <div className="box">
                             <p className="txt1">
                                 <a href="http://auckland.china-consulate.gov.cn/chn/xwdt/202211/t20221115_10975030.htm" target="_blank" rel="noopener noreferrer"><span className="color3 txt_date">2022年11月11日</span></a><br />
@@ -123,7 +126,7 @@ function Articles() {
                     </div>
 
                     <div className="wrapper hline2">
-                        <a href="https://newzealandnewspaper.co.nz/%e6%96%b0%e8%a5%bf%e5%85%b0%e6%b0%94%e6%8e%92%e7%90%83%e5%8d%8f%e4%bc%9a%e6%80%bb%e4%bc%9a%e4%b8%be%e8%a1%8c%e7%9a%84%e6%96%b0%e8%a5%bf%e5%85%b0%e5%8d%8f%e4%bc%9a%e6%9d%af%e5%85%ac%e5%bc%80%e8%b5%9b/" target="_blank" rel="noopener noreferrer"><img src="images/page1_pic6.jpg" alt="" className="no_resize img1" /></a>
+                        <a href="https://newzealandnewspaper.co.nz/%e6%96%b0%e8%a5%bf%e5%85%b0%e6%b0%94%e6%8e%92%e7%90%83%e5%8d%8f%e4%bc%9a%e6%80%bb%e4%bc%9a%e4%b8%be%e8%a1%8c%e7%9a%84%e6%96%b0%e8%a5%bf%e5%85%b0%e5%8d%8f%e4%bc%9a%e6%9d%af%e5%85%ac%e5%bc%80%e8%b5%9b/" target="_blank" rel="noopener noreferrer"><img src={externalImg3} alt="" className="no_resize img1" width="118" /></a>
                         <div className="box">
                             <p className="txt1">
 <a href="https://newzealandnewspaper.co.nz/%e6%96%b0%e8%a5%bf%e5%85%b0%e6%b0%94%e6%8e%92%e7%90%83%e5%8d%8f%e4%bc%9a%e6%80%bb%e4%bc%9a%e4%b8%be%e8%a1%8c%e7%9a%84%e6%96%b0%e8%a5%bf%e5%85%b0%e5%8d%8f%e4%bc%9a%e6%9d%af%e5%85%ac%e5%bc%80%e8%b5%9b/" target="_blank" rel="noopener noreferrer">

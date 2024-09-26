@@ -73,7 +73,6 @@ import s9_8 from '../assets/images/sponsor_logo/s9_8.png';
 import s9_9 from '../assets/images/sponsor_logo/s9_9.jpg';
 import s9_10 from '../assets/images/sponsor_logo/s9_10.jpg';
 import s9_11 from '../assets/images/sponsor_logo/s9_11.jpg';
-import s9_12 from '../assets/images/sponsor_logo/s9_12.jpg';
 import s9_13 from '../assets/images/sponsor_logo/s9_13.jpg';
 
 function Index2Page() {
@@ -199,12 +198,11 @@ function Index2Page() {
               <SponsorLogoEntry sponsorNameCn="澳洲印象 Australia Impressions" imageSrc={s9_4b} />
               <SponsorLogoEntry sponsorNameCn="华人头条 Chinese Headline Media" imageSrc={s9_5} />
               <SponsorLogoEntry sponsorNameCn="海外华人网 CHINESENET" imageSrc={s9_6} />
-              <SponsorLogoEntry sponsorNameCn="澳纽网 ausnz.net" imageSrc={s9_7} />
-              <SponsorLogoEntry sponsorNameCn="东南网 FJSEN.COM" imageSrc={s9_8} />
+              <SponsorLogoEntry sponsorNameCn="澳纽网" sponsorNameEn="ausnz.net" imageSrc={s9_7} externalLinkPath="https://ausnznet.com/new/" />
+              <SponsorLogoEntry sponsorNameCn="东南网" sponsorNameEn="FJSEN.COM" imageSrc={s9_8} externalLinkPath="https://www.fjsen.com/" />
               <SponsorLogoEntry sponsorNameCn="牧归人工作室 MUGUIREN" imageSrc={s9_9} />
-              <SponsorLogoEntry sponsorNameCn="中国城网站 www.chinesetown.co.nz" imageSrc={s9_10} />
-              <SponsorLogoEntry sponsorNameCn="和平友爱LOVE.PEACE" imageSrc={s9_11} />
-              <SponsorLogoEntry sponsorNameCn="开心影像文化传媒NZ Kia" imageSrc={s9_12} />
+              <SponsorLogoEntry sponsorNameCn="中国城网站" sponsorNameEn="chinesetown.co.nz" imageSrc={s9_10} externalLinkPath="http://www.chinesetown.co.nz/" />
+              <SponsorLogoEntry sponsorNameCn="和平友爱 LOVE.PEACE" imageSrc={s9_11} />
               <SponsorLogoEntry sponsorNameCn="苏翔工作室 NZ SuXiang Studio" imageSrc={s9_13} />
             </div>
           </div>

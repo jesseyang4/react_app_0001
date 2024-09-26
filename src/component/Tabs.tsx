@@ -53,7 +53,7 @@ const location = useLocation();
           <Link to="/schedule"><div key="3" className={`tab ${location.pathname === '/schedule' ? 'tab_active' : ''}`}>赛程安排</div></Link>
           <Link to="/score"><div key="4" className={`tab ${location.pathname === '/score' ? 'tab_active' : ''}`}>成绩公告</div></Link>
           <Link to="/acknowledge"><div key="5" className={`tab ${location.pathname === '/acknowledge' ? 'tab_active' : ''}`}>支持单位</div></Link>
-          <Link to="/stream"><div key="6" className={`tab ${location.pathname === '/stream' ? 'tab_active' : ''}`}>直播平台</div></Link>
+          <Link to="/stream"><div key="6" className={`tab ${location.pathname === '/stream' ? 'tab_active' : ''}`}>直播回放间</div></Link>
         </div>
       </div>
     </div>

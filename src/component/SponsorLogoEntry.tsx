@@ -17,17 +17,20 @@ const SponsorLogoEntry = (props: any) => {
                     <p className="sponsorlogoentry_fs_lg sponsorlogoentry_fs_xl">
                         {linkPath ? (
                             <span>
-                                <Link to={linkPath}>{sponsorNameCn}</Link>{" "}
-                                <Link to={linkPath}>{sponsorNameEn}</Link>
+                                <Link to={linkPath}>{sponsorNameCn} {sponsorNameEn}</Link>{" "}
                             </span>
-                        ) : (
+                        ) : externalLinkPath ?
+                            <span>
+                                <a href={externalLinkPath} target="_blank" rel="noopener noreferrer">{sponsorNameCn} {sponsorNameEn}</a>{" "}
+                            </span>
+                            :
                             <span>
                                 <span>{sponsorNameCn}</span>{" "}
                                 <span className="sponsorlogoentry_txt_wrap_sm sponsorlogoentry_txt_wrap_md">
                                     {sponsorNameEn}
                                 </span>
                             </span>
-                        )}
+                        }
                     </p>
                 </span>
                 <span>
@@ -47,14 +50,17 @@ const SponsorLogoEntry = (props: any) => {
                         <p className="sponsorlogoentry_fs_lg sponsorlogoentry_fs_xl">
                             {linkPath ? (
                                 <span>
-                                    <Link to={linkPath}>{sponsorNameCn}</Link>{" "}
-                                    <Link to={linkPath}>{sponsorNameEn}</Link>
+                                    <Link to={linkPath}>{sponsorNameCn}</Link>
                                 </span>
-                            ) : (
+                            ) : externalLinkPath ?
+                            <span>
+                                <a href={externalLinkPath} target="_blank" rel="noopener noreferrer">{sponsorNameCn}</a>{" "}
+                            </span>
+                            :
                                 <span>
                                     <span>{sponsorNameCn}</span>{" "}
                                 </span>
-                            )}
+                            }
                         </p>
                     </span>
                     <span style={{maxWidth: "50%"}}>
@@ -66,7 +72,19 @@ const SponsorLogoEntry = (props: any) => {
                     </span>
                 </div>
                 <span className="sponsorlogoentry_txt_wrap_sm sponsorlogoentry_txt_wrap_md" style={{maxWidth: "100%"}}>
-                    {sponsorNameEn}
+                    {linkPath ? (
+                                <span>
+                                    <Link to={linkPath}>{sponsorNameEn}</Link>
+                                </span>
+                            ) : externalLinkPath ?
+                            <span>
+                                <a href={externalLinkPath} target="_blank" rel="noopener noreferrer">{sponsorNameEn}</a>{" "}
+                            </span>
+                            :
+                                <span>
+                                    <span>{sponsorNameEn}</span>{" "}
+                                </span>
+                            }
                 </span>
             </div>
         </div>
