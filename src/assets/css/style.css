@@ -631,7 +631,8 @@ footer .hline3 a:hover{color: #fff;}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 body {
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 64%, rgba(0, 0, 0, 1) 100%), url(../images/ai_bg12.webp);
+/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 64%, rgba(0, 0, 0, 1) 100%), url(../images/ai_bg12.webp); */
+background: url(../images/background.png);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -641,7 +642,7 @@ background-color: black;
 }
 @media only screen and (min-width: 375px) and (max-width: 424px) {
 body {
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 64%, rgba(0, 0, 0, 1) 100%), url(../images/ai_bg12.webp);
+background: url(../images/background.png);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -651,7 +652,7 @@ background-color: black;
 }
 @media only screen and (min-width: 425px) and (max-width: 767px)  {
 body {
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 64%, rgba(0, 0, 0, 1) 100%), url(../images/ai_bg12.webp);
+background: url(../images/background.png);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
