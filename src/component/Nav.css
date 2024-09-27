@@ -1,6 +1,10 @@
 .header_list_0_li_active {
 background: -webkit-linear-gradient(top, #252729, dimgray) !important;
 }
+.dropdownHighlight div:hover {
+    background: dimgray;
+    background: black;
+}
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 .header_list_xs li a {
 font: bold 16px / 30px "Arial", Arial, sans-serif;

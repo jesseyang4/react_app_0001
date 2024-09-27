@@ -1,13 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import logo from './logo.svg';
 import '../assets/css/style.css';
 import './Nav.css';
 import HomePage from '../pages/HomePage';
 import Index2Page from '../pages/Index2Page';
+import NavDropdown from '../component/NavDropdown';
 
 const Nav = () => {
   const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleMouseEnter = () => {
+    setIsOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="container_12 display-none-xs display-none-sm display-none-md">
       <div className="grid_12">
@@ -19,15 +33,11 @@ const Nav = () => {
                   邀请赛会序<span className="over_line"></span>
                 </Link>
               </li>
-              <li className={location.pathname === '/akl' ? 'header_list_0_li_active' : ''}>
+              <li className={location.pathname === '/akl' ? 'header_list_0_li_active' : ''} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <Link to="/akl">
-                  奥克兰站<span className="over_line"></span>
+                  竞赛规程<span className="over_line"></span>
                 </Link>
-              </li>
-              <li className={location.pathname === '/syd' ? 'header_list_0_li_active' : ''}>
-                <Link to="/syd">
-                  悉尼站<span className="over_line"></span>
-                </Link>
+                {isOpen && <NavDropdown />}
               </li>
               <li className={location.pathname === '/schedule' ? 'header_list_0_li_active' : ''}>
                 <Link to="/schedule">
