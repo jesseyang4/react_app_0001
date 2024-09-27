@@ -14,7 +14,7 @@ function IndexVideoBPage() {
         <div className="grid_12 alpha">
           <div className="box-3">
             <div className="gradient_1">
-              <h2>赛事规程: 悉尼站</h2>
+              <h2>竞赛规程: 悉尼站</h2>
             </div>
             <div
               className="box-3_pad_3 p_text_lineheight"

@@ -15,7 +15,7 @@ function IndexVideoBPage() {
         <div className="grid_12 alpha">
           <div className="box-3">
             <div className="gradient_1">
-              <h2>直播回放间</h2>
+              <h2>直播间回放</h2>
             </div>
             <div
               className="box-3_pad_3 p_text_lineheight"

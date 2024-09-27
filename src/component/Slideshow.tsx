@@ -98,11 +98,11 @@ const Slideshow = () => {
                     </Link>
                   </span>
                   <span className="slider_txt3">
-                    Dupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est quia non numquam
-                    <br />
-                    eius modi t empora incidunt ut labore et dolore magnam
-                    aliquamlaborum.{" "}
+                  主办：
+                  <br />
+                  新西兰华人妇女联合基金会
+                  <br />
+                  新西兰气排球协会总会
                     <Link to="/indexVideo" className="link1">
                       [more]
                     </Link>
@@ -123,11 +123,7 @@ const Slideshow = () => {
                     </Link>
                   </span>
                   <span className="slider_txt3">
-                    Dupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est quia non numquam
-                    <br />
-                    eius modi t empora incidunt ut labore et dolore magnam
-                    aliquamlaborum.{" "}
+                    Press Release...
                     <Link to="/indexVideo3" className="link1">
                       [more]
                     </Link>
@@ -147,11 +143,11 @@ const Slideshow = () => {
                     </Link>
                   </span>
                   <span className="slider_txt3">
-                    Dupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est quia non numquam
-                    <br />
-                    eius modi t empora incidunt ut labore et dolore magnam
-                    aliquamlaborum.{" "}
+                  《备战星光杯》——新西兰气排球协会总会 
+                  <br />
+                  七月#NEWEATS积分赛，为迎新西兰第三届
+                  <br />
+                  星光杯气排球国际邀请赛热身！
                     <Link to="/indexVideo3B">
                       [more]
                     </Link>

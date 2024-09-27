@@ -36,7 +36,7 @@ const Nav = () => {
               </li>
               <li className={`ml2_xs ml2_sm ml2_md ${location.pathname === '/score' ? 'header_list_0_li_active' : ''}`}>
                 <Link to="/score">
-                  成绩公告<span className="over_line"></span>
+                  分组成绩<span className="over_line"></span>
                 </Link>
               </li>
               <li className={location.pathname === '/acknowledge' ? 'header_list_0_li_active' : ''}>
@@ -46,7 +46,7 @@ const Nav = () => {
               </li>
               <li className={`last ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
                 <Link to="/stream">
-                直播回放间<span className="over_line"></span>
+                直播间回放<span className="over_line"></span>
                 </Link>
               </li>
             </ul>

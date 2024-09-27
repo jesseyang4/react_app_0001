@@ -51,9 +51,9 @@ const location = useLocation();
           <Link to="/akl"><div key="1" className={`tab ${location.pathname === '/akl' ? 'tab_active' : ''}`}>奥克兰站</div></Link>
           <Link to="/syd"><div key="2" className={`tab ${location.pathname === '/syd' ? 'tab_active' : ''}`}>悉尼站</div></Link>
           <Link to="/schedule"><div key="3" className={`tab ${location.pathname === '/schedule' ? 'tab_active' : ''}`}>赛程安排</div></Link>
-          <Link to="/score"><div key="4" className={`tab ${location.pathname === '/score' ? 'tab_active' : ''}`}>成绩公告</div></Link>
+          <Link to="/score"><div key="4" className={`tab ${location.pathname === '/score' ? 'tab_active' : ''}`}>分组成绩</div></Link>
           <Link to="/acknowledge"><div key="5" className={`tab ${location.pathname === '/acknowledge' ? 'tab_active' : ''}`}>支持单位</div></Link>
-          <Link to="/stream"><div key="6" className={`tab ${location.pathname === '/stream' ? 'tab_active' : ''}`}>直播回放间</div></Link>
+          <Link to="/stream"><div key="6" className={`tab ${location.pathname === '/stream' ? 'tab_active' : ''}`}>直播间回放</div></Link>
         </div>
       </div>
     </div>
