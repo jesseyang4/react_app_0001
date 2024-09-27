@@ -1,4 +1,5 @@
 import "../assets/css/style.css";
+import "./ScorePage.css"
 import scoreImg1 from '../assets/images/score_img1.png';
 import s1 from '../assets/images/scorepage/1.jpeg';
 import s2 from '../assets/images/scorepage/2.jpeg';
@@ -31,11 +32,9 @@ function Index2Page() {
               <p className="p_text_header_white">
               悉尼站分组与比赛次序: 
               </p>
-              <div style={{textAlign: "center"}}>
-              <img src={s1} style={{marginTop: "20px", maxWidth: "300px", width: "100%"}} />
+              <img src={s1} style={{marginTop: "20px", width: "100%"}} className="sc_pos_xs sc_pos_sm sc_pos_md sc_pos_lg sc_ml_xl sc_mw_xl" />
               <img src={s2} style={{marginTop: "20px"}} />
               <img src={s3} style={{marginTop: "20px"}} />
-              </div>
               <br />
 
               <p className="p_text_header_white"  style={{marginTop: "20px"}} >
