@@ -12,10 +12,9 @@ function IndexVideoBPage() {
               <h2>联系我们</h2>
             </div>
             <div
-              className="box-3_pad_3 p_text_lineheight"
+              className="box-3_pad_3 p_text_lineheight m_50_lg m_50_xl"
               style={{
                 fontSize: "18px",
-                textIndent: "Video0px",
               }}
             >
 <p className="p_text_body" style={{marginTop:"20px"}}>

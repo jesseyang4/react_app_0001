@@ -1,5 +1,5 @@
 // src/Tabs.tsx
-import React, { useRef, useState, MouseEvent } from 'react';
+import React, { useEffect, useRef, useState, MouseEvent } from 'react';
 import './Tabs.css';
 import { Link, useLocation } from "react-router-dom";
 import TabsSponsorImageContainer from './TabsSponsorImageContainer';
@@ -80,6 +80,7 @@ const Tabs: React.FC = () => {
 const location = useLocation();
   const tabsWrapperRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
 
@@ -93,6 +94,11 @@ const location = useLocation();
 
   const handleMouseLeave = () => {
     setIsDragging(false);
+    setHovered(false);
+  };
+
+  const handleMouseEnter = () => {
+    setHovered(true);
   };
 
   const handleMouseUp = () => {
@@ -107,6 +113,16 @@ const location = useLocation();
     tabsWrapperRef.current.scrollLeft = scrollLeft - walk;
   };
 
+  useEffect(() => {
+    const scrollInterval = setInterval(() => {
+      if (tabsWrapperRef.current && !hovered) {
+        tabsWrapperRef.current.scrollLeft += 1; // Scroll to the left
+      }
+    }, 20); // Adjust the speed by changing the interval
+
+    return () => clearInterval(scrollInterval);
+  }, [hovered]);
+
   return (
 <div className="container_12 mt10">
 <div className="grid_12">
@@ -116,6 +132,7 @@ const location = useLocation();
         ref={tabsWrapperRef}
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
+        onMouseEnter={handleMouseEnter}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
       >

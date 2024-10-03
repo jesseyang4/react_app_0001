@@ -7,6 +7,7 @@ import Banner from "./component/Banner";
 import Nav from "./component/Nav";
 import Tabs from "./component/Tabs";
 import TabsSponsors from "./component/TabsSponsors";
+import Sponsors from "./component/Sponsors";
 import Slideshow from "./component/Slideshow";
 import Articles from "./component/Articles";
 import Footer from "./component/Footer";
@@ -107,7 +108,7 @@ function App() {
               element={<VideoPage embedSrc="https://www.youtube.com/embed/j37wr_ZD_w0?si=zH9BOCBmzQ3yc_fl" title="《半决赛之3、4名争夺赛》新西兰第一届星光杯气排球锦标赛" />}
             />
         </Routes>
-        {/* <TabsSponsors /> */}
+        <Sponsors />
       <Footer />
       </Router>
     </div>

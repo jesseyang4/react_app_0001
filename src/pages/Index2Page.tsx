@@ -11,23 +11,15 @@ function Index2Page() {
               <h2>赛程安排</h2>
             </div>
             <div
-              className="box-3_pad_3 p_text_body_indent p_text_lineheight"
+              className="box-3_pad_3 p_text_lineheight m_50_lg m_50_xl"
               style={{
                 fontSize: "18px",
-                textIndent: "50px"
               }}
             >
-              <p
-                style={{
-                  color: "limegreen",
-                  fontSize: "20px",
-                  fontWeight: "bold",
-                  padding: "20px 0 20px 0"
-                }}
+              <p className="p_text_header"
               >
                悉尼 SYDNEY ｜ 澳大利亚 AUSTRALIA
               </p>
-
               <p
                 style={{
                   marginBottom: "20px"

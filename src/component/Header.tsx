@@ -9,9 +9,11 @@ import soc3Icon from "../assets/images/soc_3.png";
 import nzlvgaLogo from "../assets/images/nzlvga_logo.png";
 import "./Header.css";
 import HamburgerMenu from './HamburgerMenu';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+
   useEffect(() => {
     if (!window.$) {
       return;
@@ -23,7 +25,10 @@ const Header = () => {
   return (
     <div>
       <header className="sf-menu-fixed-xs sf-menu-fixed-sm sf-menu-fixed-md">
-        <div className="container_12 logo-xs logo-sm logo-md">
+        <div className="container_12 ">
+          <a href="/">
+<img src={nzlvgaLogo} alt="" className="header_mobile_logo header_mobile_logo_pos_xs header_mobile_logo_pos_sm header_mobile_logo_pos_md display-none-lg display-none-xl" />
+</a>
           <div className="sf-menu-xs sf-menu-sm sf-menu-md display-none-lg display-none-xl">
     		<HamburgerMenu />
     	 </div>
@@ -37,28 +42,28 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <Link to="about" className="sf-with-ul">
+                <Link to="/about" className={`sf-with-ul ${location.pathname === '/about' ? 'header_tab_active' : ''}`}>
                   <span></span>关于NZLVGA<strong></strong>
                 </Link>
               </li>
 
               <li>
-                <Link to="/practice">
+                <Link to="/practice" className={location.pathname === '/practice' ? 'header_tab_active' : ''}>
                   日常训练<strong></strong>
                 </Link>
               </li>
               <li>
-                <Link to="/team">
+                <Link to="/team" className={location.pathname === '/team' ? 'header_tab_active' : ''}>
                   团队伙伴<strong></strong>
                 </Link>
               </li>
               <li>
-                <Link to="/location">
+                <Link to="/location" className={location.pathname === '/location' ? 'header_tab_active' : ''}>
                   训练基地<strong></strong>
                 </Link>
               </li>
               <li className="last-li">
-                <Link to="/contact">
+                <Link to="/contact" className={location.pathname === '/contact' ? 'header_tab_active' : ''}>
                   联系我们<strong></strong>
                 </Link>
               </li>

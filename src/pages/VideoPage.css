@@ -37,17 +37,17 @@ height: 181px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
 .video_w_lg {
-width: 708px;
+width: 608px;
 }
 .video_h_lg {
-height: 393px;
+height: 337px;
 }
 }
 @media only screen and (min-width: 1024px) {
 .video_w_xl {
-width: 900px;
+width: 800px;
 }
 .video_h_xl {
-height: 500px;
+height: 444px;
 }
 }

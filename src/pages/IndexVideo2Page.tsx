@@ -11,7 +11,7 @@ function IndexVideo2Page() {
             <div className="gradient_1">
               <h2>新西兰第二届星光杯气排球锦标赛开幕式直播回放</h2>
             </div>
-            <div className="box-3_pad_3 p_text_body_indent">
+            <div className="box-3_pad_3 m_50_lg m_50_xl">
               <p className="p_text_header">上集：会前专访篇</p>
               <iframe
 className="video_w_xs video_h_xs video_w_sm video_h_sm video_w_md video_h_md video_w_lg video_h_lg video_w_xl video_h_xl"

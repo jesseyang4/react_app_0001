@@ -13,10 +13,10 @@ function IndexVideo2Page() {
             <div className="gradient_1">
               <h2>日常训练</h2>
             </div>
-            <div className="box-3_pad_3 p_text_body_indent p_text_lineheight">
+            <div className="box-3_pad_3 p_text_lineheight m_50_lg m_50_xl">
               <p className="p_text_header">《第一把火》记新西兰气排球协会总会（NZLVGA）春节后首练</p>
               <p className="p_text_subheader p_text_header_white">2023年2月11日</p>
-<p className="p_text_body p_text_body_ml">NZLVGA管理团队重组后的第一次训练来之不易，近期的水灾使得训练计划一推再推。
+<p className="p_text_body ">NZLVGA管理团队重组后的第一次训练来之不易，近期的水灾使得训练计划一推再推。
 今天80多位气排球爱好者和后援支持者终于可以相约来一树山高中训练啦！是你们成就了首练
 感谢大家的支持！为了你们——我们会做得更好！
 </p>

@@ -15,10 +15,10 @@ const Header = (props: any) => {
 const {description, date, title, embedUri} = props;
   return (
 <div>
-            <div className="box-3_pad_3 p_text_body_indent p_text_lineheight">
+            <div className="">
               <p className="p_text_header">{title}</p>
               <p className="p_text_subheader p_text_header_white">{date}</p>
-<p className="p_text_body p_text_body_ml">
+<p className="p_text_body ">
 {description}
 </p>
               <iframe

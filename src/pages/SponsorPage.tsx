@@ -85,7 +85,7 @@ function Index2Page() {
               <h2>支持单位</h2>
             </div>
             <div
-              className="box-3_pad_3  p_text_lineheight ml_lg ml_xl"
+              className="box-3_pad_3  p_text_lineheight m_50_lg m_50_xl"
               style={{
                 fontSize: "18px",
                 // textIndent: "50px",

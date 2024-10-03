@@ -14,10 +14,9 @@ function IndexVideoBPage() {
               <h2>团队伙伴</h2>
             </div>
             <div
-              className="box-3_pad_3 p_text_lineheight"
+              className="box-3_pad_3 p_text_lineheight m_50_lg m_50_xl"
               style={{
                 fontSize: "18px",
-                textIndent: "Video0px",
               }}
             >
               <p className="p_text_header">(一)隶属协会的团队:</p>

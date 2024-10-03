@@ -1,0 +1,42 @@
+.collapsible {
+  margin-bottom: 10px;
+}
+
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chevron {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+.chevron.down {
+  border-top: 5px solid white; /* Down arrow */
+  transform: rotate(0deg); /* Rotate for up direction */
+}
+
+.chevron.up {
+  border-bottom: 5px solid white; /* Up arrow */
+  transform: rotate(360deg); /* Rotate for up direction */
+}
+
+.collapsible-content {
+  max-height: 0; /* Start closed */
+  overflow: hidden; /* Hide overflow content */
+  transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition */
+}
+
+.collapsible-content.open {
+  max-height: 500px; /* Set a reasonable max height for expansion */
+}
+
+.collapsible-content.closed {
+  padding: 0; /* Remove padding when closed */
+}
+
