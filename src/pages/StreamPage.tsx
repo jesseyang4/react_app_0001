@@ -1,12 +1,10 @@
 import React from "react";
 import './VideoPage.css';
-import streamImg1 from '../assets/images/stream_img1.jpeg'
-import streamImg2 from '../assets/images/stream_img2.jpeg'
-import streamImg3 from '../assets/images/stream_img3.jpeg'
-import streamImg4 from '../assets/images/stream_img4.jpeg'
-import streamImg5 from '../assets/images/stream_img5.jpeg'
-import streamImg6 from '../assets/images/stream_img6.jpeg'
-import streamImg7 from '../assets/images/stream_img7.jpg'
+import streamImg1 from '../assets/images/stream_img1.jpg'
+import streamImg3 from '../assets/images/stream_img3.jpg'
+import streamImg4 from '../assets/images/stream_img4.jpg'
+import streamImg5 from '../assets/images/stream_img5.jpg'
+import streamImg6 from '../assets/images/stream_img6.jpg'
 
 function IndexVideoBPage() {
   return (
@@ -28,20 +26,23 @@ function IndexVideoBPage() {
 </p> */}
               <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(澳大利亚悉尼站)</p>
               <img src={streamImg1} />
-              <p className="p_text_body" style={{marginTop: "20px"}}>悉尼站澳洲印象直播(二维码版): 扫描二维码即可预约、收看直播和回放</p>
-              <img src={streamImg2} style={{width: "50%"}} />
 
               <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(奥克兰站)</p>
-              <p className="p_text_header_white">2024年10月4日: 女子组小组赛/半决赛/季军赛 (9:30-16:30)</p>
-              <img src={streamImg3} />
+              <p className="p_text_header_white"><a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer">女子组 (小组赛/半决赛/季军赛)</a>
+              </p>
+              <p className="p_text_header_white">
+                10月4日
+              </p>
+              <p className="p_text_body">新西兰时间:&emsp;9.30-16:30</p>
+<p className="p_text_body">悉尼时间:&emsp;&emsp;6.30-13:00</p>
+<p className="p_text_body">北京时间:&emsp;&emsp;4:30-11:30</p>
+<a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer"><img src={streamImg3} /></a>
               <p className="p_text_header_white" style={{marginTop: "20px"}}>2024年10月5日: 男子组小组赛/半决赛/季军赛(9:30-16:30)</p>
               <img src={streamImg4} />
               <p className="p_text_header_white" style={{marginTop: "20px"}}> 2024年10月6日: 男女冠亚军争夺赛(12:00-14:00)</p>
               <img src={streamImg5} />
               <p className="p_text_header_white" style={{marginTop: "20px"}}> 2024年10月6日: 闭幕式 (14:30-16:30)</p>
               <img src={streamImg6} />
-              <p className="p_text_body" style={{marginTop: "20px"}}>闭幕式澳洲印象直播(二维码版): 扫描二维码即可预约、收看直播和回放</p>
-              <img src={streamImg7} style={{width: "50%"}} />
 
 
 
