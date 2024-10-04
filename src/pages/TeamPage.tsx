@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import nzlvgaBanner from "../assets/images/nzlvga_banner3.jpeg";
 import logoNzwsa from "../assets/images/sponsor_logo/s5_6.jpeg";
 import "./VideoPage.css";
 import "./TeamPage.css";
 
 function IndexVideoBPage() {
+  useEffect(() => {
+    const hash = window.location.hash.slice(1); // Remove the '#' character from the hash
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, []);
   return (
     <div className="container_12">
       <div className="grid_12">

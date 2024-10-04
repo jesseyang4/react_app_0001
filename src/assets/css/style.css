@@ -225,9 +225,24 @@ color: limegreen;
     font-weight: bold;
     padding: 50px 0 20px 0;
 }
-.p_text_body{
-    font-size: 18px;
-margin-bottom:20px;
+
+.p_header {
+	color: limegreen;
+		font-size: 20px;
+		font-weight: bold;
+		padding: 50px 0 20px 0;
+}
+
+.p_subheader {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.p_text_body {
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 .p_text_body_indent{
     text-indent: 50px;

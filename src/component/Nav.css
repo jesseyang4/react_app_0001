@@ -7,6 +7,9 @@ background: -webkit-linear-gradient(top, #252729, dimgray) !important;
 }
 .nav_red {
 background: -webkit-linear-gradient(top,#EF3F16, #EF3F16 ) !important;
+/* border-radius: 7px 0 0 0; */
+}
+.nav_border_left {
 border-radius: 7px 0 0 0;
 }
 @media only screen and (min-width: 320px) and (max-width: 374px) {
