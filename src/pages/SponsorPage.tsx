@@ -135,7 +135,7 @@ function Index2Page() {
               <SponsorLogoEntry sponsorNameCn="新西兰和平之友联谊会 New Zealand Friendship for Peace Association" imageSrc={s5_4} />
               <SponsorLogoEntry sponsorNameCn="太平洋文化艺术发展协会Pacific Culture and Arts Development Association Inc" imageSrc={s5_5} />
               <SponsorLogoEntry sponsorNameCn="万方排球体育总会   NZWFSA" imageSrc={s5_6} linkPath="/team" />
-              <SponsorLogoEntry sponsorNameCn="同和排球俱乐部     Vray Volleyball Club" imageSrc={s5_7}  linkPath="/team" />
+              <SponsorLogoEntry sponsorNameCn="同和排球俱乐部     VRay Volleyball Club" imageSrc={s5_7}  linkPath="/team" />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 媒体主办 | Major Media

@@ -80,14 +80,14 @@ function IndexVideoBPage() {
                 </ul>
               </p>
               <p className="p_text_header">(二)合作单位: </p>
-              <p className="p_text_subheader p_text_header_white">
+              <p  id="vray" className="p_text_subheader p_text_header_white">
                 同和排球俱乐部(VRay Volleyball Club) :
               </p>
               <p className="p_text_body" style={{ marginTop: "20px" }}>
                 成立于2020年，由一群热爱排球、气排球运动，遍布奥克兰的中青年球员组成，是新西兰排协VNZ-WECA注册排球俱乐部，多年来一直致力于为广大华裔排球爱好者提供训练交流切磋的平台，提升华裔运动员在本地排球运动中的表现。
               </p>
               <div className="team-page-display-flex">
-                <span><p className="p_text_subheader p_text_header_white">
+                <span><p id="nzwfsa" className="p_text_subheader p_text_header_white">
                   新西兰万方排球俱乐部 :
                 </p></span>
                 <span><img src={logoNzwsa} alt="" style={{ height: "45px" }} /></span>
