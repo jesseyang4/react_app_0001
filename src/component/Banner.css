@@ -76,13 +76,13 @@ display:none;
         .banner_text1_responsive { font-size: 29px; line-height: 26px; }
         .banner_text2_responsive { font-size: 13px; line-height: normal; }
         .banner_text3_responsive { font-size: 15px; }
-        .banner_pb0_responsive { padding-bottom:0; }
-        .banner_pb1_responsive { padding-bottom:0; }
+        .banner_pb0_responsive { padding-bottom:2px; }
+        .banner_pb1_responsive { padding-bottom:1px; }
         .banner_pb2_responsive { padding-bottom:0; }
         .banner_pb3_responsive { padding-bottom:0; }
-        .banner_pt0_responsive { padding-top:0px; }
+        .banner_pt0_responsive { padding-top:2px; }
         .banner_pt1_responsive { padding-top:13px; }
-        .banner_pt2_responsive { padding-top:19px; }
+        .banner_pt2_responsive { padding-top:17px; }
         .banner_pt3_responsive { padding-top:10px; }
 .box-1 {
 width: 100%;
