@@ -47,7 +47,7 @@ const location = useLocation();
         onMouseMove={handleMouseMove}
       >
         <div className="tabs">
-        <Link to="/stream"><div key="6" className={`tab tab_red ${location.pathname === '/stream' ? '' : ''}`}>▶直播间回放</div></Link>
+        <Link to="/stream"><div key="6" className={`tab tab_red ${location.pathname === '/stream' ? '' : ''}`}>►直播间回放</div></Link>
         <Link to="/presentation"><div key="0" className={`tab ${location.pathname === '/presentation' ? 'tab_active' : ''}`}>邀请赛会序</div></Link>
           <Link to="/akl"><div key="1" className={`tab ${location.pathname === '/akl' ? 'tab_active' : ''}`}>奥克兰站</div></Link>
           <Link to="/syd"><div key="2" className={`tab ${location.pathname === '/syd' ? 'tab_active' : ''}`}>悉尼站</div></Link>

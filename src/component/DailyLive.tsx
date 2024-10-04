@@ -16,7 +16,7 @@ function Articles() {
             <div className="grid_12">
                 <div className="grid_12-xs grid_12-sm grid_12-md grid_12-lg grid_12-xl">
                     <div className="box-3">
-                        <div className="gradient_1"><h2><a href="https://muimp.xet.tech/s/2ODa6M" target="_blank" rel="noopener noreferrer">▶ 男子组直播</a></h2></div>
+                        <div className="gradient_1"><h2><a href="https://muimp.xet.tech/s/2ODa6M" target="_blank" rel="noopener noreferrer">► 男子组直播</a></h2></div>
                         <div className="box-3_pad">
 
                             <div className="wrapper">

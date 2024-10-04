@@ -30,7 +30,7 @@ const Nav = () => {
             <ul className="header_list_0 header_list_xs header_list_sm header_list_md">
               <li className={`ml1_xs ml1_sm ml1_md nav_red ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
                 <Link to="/stream">
-                ▶直播间回放<span className="over_line"></span>
+                ►直播间回放<span className="over_line"></span>
                 </Link>
               </li>
               <li className={`${location.pathname === '/presentation' ? 'header_list_0_li_active' : ''}`}>
