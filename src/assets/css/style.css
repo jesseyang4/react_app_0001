@@ -104,8 +104,8 @@ body {
 	font:12px/17px Arial, Helvetica, sans-serif ;
 	/* color:#797d80; */ /* og dark gray color */
 	color: #abaeb0;
-	background: #0c1013;
-	background: url(../images/ai_bg12.webp) 50% 0% #0c1013  no-repeat;
+	background: #010201;
+	background: url(../images/background.png) 50% 0% #010201  no-repeat;
 	background-size: 100%;
 	min-width:300px;
 }

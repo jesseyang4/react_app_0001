@@ -1,5 +1,5 @@
 // src/Tabs.tsx
-import React, { useRef, useState, MouseEvent } from 'react';
+import React, { useEffect, useRef, useState, MouseEvent } from 'react';
 import './Tabs.css';
 import { Link, useLocation } from "react-router-dom";
 import TabsSponsorImageContainer from './TabsSponsorImageContainer';
@@ -77,9 +77,9 @@ import s9_11 from '../assets/images/sponsor_logo/s9_11.jpg';
 import s9_13 from '../assets/images/sponsor_logo/s9_13.jpg';
 
 const Tabs: React.FC = () => {
-const location = useLocation();
   const tabsWrapperRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
 
@@ -93,6 +93,11 @@ const location = useLocation();
 
   const handleMouseLeave = () => {
     setIsDragging(false);
+    setHovered(false);
+  };
+
+  const handleMouseEnter = () => {
+    setHovered(true);
   };
 
   const handleMouseUp = () => {
@@ -107,6 +112,28 @@ const location = useLocation();
     tabsWrapperRef.current.scrollLeft = scrollLeft - walk;
   };
 
+  useEffect(() => {
+
+    const scrollInterval = setInterval(() => {
+      if (tabsWrapperRef.current && !hovered) {
+        tabsWrapperRef.current.scrollLeft += 1; // Scroll to the left
+        let scrollWidth: number = 6775;
+        if (window.innerWidth < 1024) {
+          scrollWidth = 6204;
+        }
+        if (window.innerWidth < 425) {
+          scrollWidth = 6804;
+        }
+        if (tabsWrapperRef.current.scrollLeft > scrollWidth) {
+          // console.log('reached 6800');
+          tabsWrapperRef.current.scrollLeft = 0;
+        }
+      }
+    }, 20); // Adjust the speed by changing the interval
+
+    return () => clearInterval(scrollInterval);
+  }, [hovered]);
+
   return (
 <div className="container_12 mt10">
 <div className="grid_12">
@@ -116,10 +143,25 @@ const location = useLocation();
         ref={tabsWrapperRef}
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
+        onMouseEnter={handleMouseEnter}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
       >
         <div className="tabs">
+          {/* <TabsSponsorImageContainer imagePath={s9_1} />
+          <TabsSponsorImageContainer imagePath={s9_2} />
+          <TabsSponsorImageContainer imagePath={s9_3} />
+          <TabsSponsorImageContainer imagePath={s9_4} />
+          <TabsSponsorImageContainer imagePath={s9_4b} />
+          <TabsSponsorImageContainer imagePath={s9_5} />
+          <TabsSponsorImageContainer imagePath={s9_6} />
+          <TabsSponsorImageContainer imagePath={s9_7} />
+          <TabsSponsorImageContainer imagePath={s9_8} />
+          <TabsSponsorImageContainer imagePath={s9_9} />
+          <TabsSponsorImageContainer imagePath={s9_10} />
+          <TabsSponsorImageContainer imagePath={s9_11} />
+          <TabsSponsorImageContainer imagePath={s9_13} /> */}
+
           <TabsSponsorImageContainer imagePath={s1_3} />
           <TabsSponsorImageContainer imagePath={s1_1} />
           <TabsSponsorImageContainer imagePath={s1_2} />
@@ -190,6 +232,15 @@ const location = useLocation();
           <TabsSponsorImageContainer imagePath={s9_10} />
           <TabsSponsorImageContainer imagePath={s9_11} />
           <TabsSponsorImageContainer imagePath={s9_13} />
+
+          <TabsSponsorImageContainer imagePath={s1_3} />
+          <TabsSponsorImageContainer imagePath={s1_1} />
+          <TabsSponsorImageContainer imagePath={s1_2} />
+          <TabsSponsorImageContainer imagePath={s2_2} />
+          <TabsSponsorImageContainer imagePath={s4b_1} />
+          <TabsSponsorImageContainer imagePath={s3_1} />
+          <TabsSponsorImageContainer imagePath={s3_2} />
+          <TabsSponsorImageContainer imagePath={s3_3} />
         </div>
       </div>
     </div>

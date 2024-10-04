@@ -72,9 +72,9 @@ const Header = () => {
             <a href="https://www.facebook.com/share/eehx8JPY2jLiBmQf/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
               <img src={soc2Icon} alt="" />
             </a>
-            <a href="#">
+            <Link to="/stream">
               <img src={soc3Icon} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="clear"></div>
         </div>

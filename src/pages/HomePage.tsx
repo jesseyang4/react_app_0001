@@ -8,7 +8,6 @@ function HomePage() {
 <div>
 <Slideshow />
 <Articles />
-<Sponsors />
 </div>
   );
 }

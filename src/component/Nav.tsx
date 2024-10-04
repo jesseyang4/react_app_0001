@@ -28,7 +28,12 @@ const Nav = () => {
         <div className="box-2 gradient_1">
           <nav className="mt0_xs  mt0_sm mt0_md" style={{ margin: "0px", float: "none" }}>
             <ul className="header_list_0 header_list_xs header_list_sm header_list_md">
-              <li className={`ml1_xs ml1_sm ml1_md ${location.pathname === '/presentation' ? 'header_list_0_li_active' : ''}`}>
+              <li className={`ml1_xs ml1_sm ml1_md nav_red ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
+                <Link to="/stream">
+                ▶直播间回放<span className="over_line"></span>
+                </Link>
+              </li>
+              <li className={`${location.pathname === '/presentation' ? 'header_list_0_li_active' : ''}`}>
                 <Link to="/presentation">
                   邀请赛会序<span className="over_line"></span>
                 </Link>
@@ -52,11 +57,6 @@ const Nav = () => {
               <li className={location.pathname === '/acknowledge' ? 'header_list_0_li_active' : ''}>
                 <Link to="/acknowledge">
                   支持单位<span className="over_line"></span>
-                </Link>
-              </li>
-              <li className={`last ${location.pathname === '/stream' ? 'header_list_0_li_active' : ''}`}>
-                <Link to="/stream">
-                直播间回放<span className="over_line"></span>
                 </Link>
               </li>
             </ul>

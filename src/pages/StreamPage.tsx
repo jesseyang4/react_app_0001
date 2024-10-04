@@ -28,21 +28,40 @@ function IndexVideoBPage() {
               <img src={streamImg1} />
 
               <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(奥克兰站)</p>
-              <p className="p_text_header_white"><a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer">女子组 (小组赛/半决赛/季军赛)</a>
-              </p>
-              <p className="p_text_header_white">
-                10月4日
-              </p>
-              <p className="p_text_body">新西兰时间:&emsp;9.30-16:30</p>
-<p className="p_text_body">悉尼时间:&emsp;&emsp;6.30-13:00</p>
-<p className="p_text_body">北京时间:&emsp;&emsp;4:30-11:30</p>
-<a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer"><img src={streamImg3} /></a>
-              <p className="p_text_header_white" style={{marginTop: "20px"}}>2024年10月5日: 男子组小组赛/半决赛/季军赛(9:30-16:30)</p>
-              <img src={streamImg4} />
-              <p className="p_text_header_white" style={{marginTop: "20px"}}> 2024年10月6日: 男女冠亚军争夺赛(12:00-14:00)</p>
-              <img src={streamImg5} />
-              <p className="p_text_header_white" style={{marginTop: "20px"}}> 2024年10月6日: 闭幕式 (14:30-16:30)</p>
-              <img src={streamImg6} />
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}><a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer">女子组 (小组赛/半决赛/季军赛)</a> </p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}> 10月4日 </p>
+              <p className="p_text_body" style={{ marginTop: "20px" }}>新西兰时间:&emsp;9.30-16:30</p>
+              <p className="p_text_body">悉尼时间:&emsp;&emsp;6.30-13:00</p>
+              <p className="p_text_body">北京时间:&emsp;&emsp;4:30-11:30</p>
+              <a href="https://muimp.xet.tech/s/2LuwWZ" target="_blank" rel="noopener noreferrer"><img src={streamImg3} /></a>
+
+
+
+              <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(奥克兰站)</p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}><a href="https://muimp.xet.tech/s/2ODa6M" target="_blank" rel="noopener noreferrer">男子组 (小组赛/半决赛/季军赛)              </a> </p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}> 10月5日 </p>
+              <p className="p_text_body" style={{ marginTop: "20px" }}>新西兰时间:&emsp;9.30-16:30</p>
+              <p className="p_text_body">悉尼时间:&emsp;&emsp;6.30-13:00</p>
+              <p className="p_text_body">北京时间:&emsp;&emsp;4:30-11:30</p>
+              <a href="https://muimp.xet.tech/s/2ODa6M" target="_blank" rel="noopener noreferrer"><img src={streamImg4} /></a>
+
+
+              <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(奥克兰站)</p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}><a href="https://muimp.xet.tech/s/25J71w" target="_blank" rel="noopener noreferrer">男女冠军争夺赛组 </a> </p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}> 10月6日 </p>
+              <p className="p_text_body" style={{ marginTop: "20px" }}>新西兰时间:&emsp;12:00-14:00</p>
+              <p className="p_text_body">悉尼时间:&emsp;&emsp;10:00-12:00</p>
+              <p className="p_text_body">北京时间:&emsp;&emsp;7:00-9:00</p>
+              <a href="https://muimp.xet.tech/s/25J71w" target="_blank" rel="noopener noreferrer"><img src={streamImg5} /></a>
+
+
+              <p className="p_text_header">2024新西兰第三届星光杯国际气排球邀请赛(奥克兰站)</p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}><a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer">闭幕式</a> </p>
+              <p className="p_text_header_white" style={{ marginTop: "20px" }}> 10月6日 </p>
+              <p className="p_text_body" style={{ marginTop: "20px" }}>新西兰时间:&emsp;14:00-16:30</p>
+              <p className="p_text_body">悉尼时间:&emsp;&emsp;12:00-14:30</p>
+              <p className="p_text_body">北京时间:&emsp;&emsp;9:00-11:30</p>
+              <a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer"><img src={streamImg6} /></a>
 
 
 
@@ -52,7 +71,7 @@ function IndexVideoBPage() {
 附: 
 </p>
               <p>
-                <b>悉尼站赛事安排</b>： (新西兰时间)
+                <b>悉尼站赛事安排</b>： (悉尼时间)
               </p>
               <p>
                 9月29日 &emsp;&emsp;&emsp;&emsp; 9:00～18:00
