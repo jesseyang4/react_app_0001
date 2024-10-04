@@ -38,10 +38,10 @@ const Nav = () => {
                   邀请赛会序<span className="over_line"></span>
                 </Link>
               </li>
-              <li className={location.pathname === '/akl' ? 'header_list_0_li_active' : ''} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <Link to="/akl">
+              <li className={location.pathname === '/akl' ? '' : ''} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <a>
                   竞赛规程<span className="over_line"></span>
-                </Link>
+                </a>
                 {isOpen && <NavDropdown />}
               </li>
               <li className={location.pathname === '/schedule' ? 'header_list_0_li_active' : ''}>
