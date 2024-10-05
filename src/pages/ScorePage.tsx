@@ -26,6 +26,7 @@ function Index2Page() {
                 textIndent: "50px"
               }}
             >
+{/* 女子WOMEN */}
               <p className="p_header">女子组小组赛成绩</p>
               <p className="p_subheader">小组A</p>
               <p className="p_white">1 &emsp;同和星来</p>
@@ -55,8 +56,8 @@ function Index2Page() {
               <br />
 
               <p className="p_header">女子组半决赛成绩</p>
-              <p className="p_white">(决赛) 同和星来</p>
-              <p className="p_white">(决赛) 澳大利亚沙拉</p>
+              <p className="p_highlight">(入决赛) 同和星来</p>
+              <p className="p_highlight">(入决赛) 澳大利亚沙拉</p>
               <br />
               <p><span className="p_white">星来</span> vs 诚全 &emsp;18:21 21:14 15:2</p>
               <p><span className="p_white">沙拉</span> vs 方同 &emsp;21:14 21:8</p>
@@ -65,17 +66,73 @@ function Index2Page() {
               <br />
 
               <p className="p_header">女子组3-8名决赛</p>
-              <p className="p_white">3. 万方同和</p>
-              <p className="p_white">4. 同和诚全</p>
-              <p className="p_white">5. 北京海百利</p>
-              <p className="p_white">6. 澳大利亚群英</p>
-              <p className="p_white">7. 协会全红</p>
-              <p className="p_white">*  TN女队</p>
+              <p className="p_highlight">3. 万方同和</p>
+              <p className="p_highlight">4. 同和诚全</p>
+              <p className="p_highlight">5. 北京海百利</p>
+              <p className="p_highlight">6. 澳大利亚群英</p>
+              <p className="p_highlight">7. 协会全红</p>
+              <p className="p_highlight">*  TN女队</p>
               <br />
               <p>诚全 vs <span className="p_white">方同</span> &emsp;21:17 18:21 8:15</p>
               <p>群英 vs <span className="p_white">海百利</span> 19:21 19:21</p>
               <p><span className="p_white">TN</span> vs 全红&emsp;&emsp;21:18 21:16</p>
               <br />
+
+{/* 男子MEN */}
+              <p className="p_header">男子组小组赛成绩</p>
+              <p className="p_subheader">小组A</p>
+              
+
+              <p className="p_white">1 &emsp;万方精英</p>
+              <p className="p_white">2 &emsp;同和和风</p>
+              <p className="p_white">3 &emsp;协会联盟</p>
+              <p className="p_white">4 &emsp;同和取经</p>
+              <br />
+              <p><span className="p_white">精英</span> vs 联盟 21:11 21:14</p>
+              <p>取经 vs <span className="p_white">和风</span> 21:18 17:21 11:15</p>
+              <p>和风 vs <span className="p_white">精英</span> 11:21 14:21</p>
+              <p>取经 vs <span className="p_white">联盟</span> 20:22 21:19 12:15</p>
+              <p><span className="p_white">精英</span> vs 取经 21:14 21:6</p>
+              <p>联盟 vs <span className="p_white">和风</span> 12:21 14:21</p>
+              <br />
+              <p className="p_subheader">小组B</p>
+
+
+              <p className="p_white">1 &emsp;澳大利亚群英</p>
+              <p className="p_white">2 &emsp;协会英雄</p>
+              <p className="p_white">3 &emsp;万方元老</p>
+              <p className="p_white">* &emsp;TN男队</p>
+              <br />
+              <p><span className="p_white">群英</span> vs TN&emsp;22:20 21:13</p>
+              <p>元老 vs <span className="p_white">英雄</span> 15:21 11:21</p>
+              <p>英雄 vs <span className="p_white">群英</span> 13:21 11:21</p>
+              <p><span className="p_white">元老</span> vs TN&emsp;21:17 17:21 15:6</p>
+              <p><span className="p_white">群英</span> vs 元老 21:17 21:8</p>
+              <p><span className="p_white">TN</span> vs 英雄&emsp;21:14 16:21 15:8</p>
+              <br />
+
+              <p className="p_header">男子组半决赛成绩</p>
+              <p className="p_highlight">(入决赛) 万方精英</p>
+              <p className="p_highlight">(入决赛) 澳大利亚群英</p>
+              <br />
+              <p><span className="p_white">精英</span> vs 英雄 21:16 21:19</p>
+              <p><span className="p_white">群英</span> vs 和风 21:14 21:10</p>
+              <p>联盟 vs <span className="p_white">TN</span>&emsp;16:21 19:21</p>
+              <p>元老 vs <span className="p_white">取经</span> 8:21 21:19 6:15</p>
+              <br />
+
+              <p className="p_header">男子组3-8名决赛</p>
+              <p className="p_highlight">3. 同和和风</p>
+              <p className="p_highlight">4. 协会英雄</p>
+              <p className="p_highlight">5. 同和取经</p>
+              <p className="p_highlight">6. 协会联盟</p>
+              <p className="p_highlight">7. 万方元老</p>
+              <p className="p_highlight">*  TN男队</p>
+              <br />
+              <p>英雄 vs <span className="p_white">和风</span> 21:16 18:21 11:15</p>
+              <p>联盟 vs <span className="p_white">取经</span> 12:21 18:21</p>
+              <br />
+
 
               <p className="p_text_header">
               参赛队伍

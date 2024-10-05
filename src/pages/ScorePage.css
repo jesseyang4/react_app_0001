@@ -1,5 +1,10 @@
 .p_white {
     color:white;
+    vertical-align: unset;
+}
+.p_highlight {
+    color: #fab600;
+    vertical-align: unset;
 }
     :root {
     --score-img-1-max-size: 300px;

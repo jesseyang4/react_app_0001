@@ -72,7 +72,7 @@ function Index2Page() {
                   fontWeight: "bold", marginBottom: "20px"
                 }}
               >
-                决赛/闭幕式
+                预赛/季军赛: &emsp;&emsp;&emsp; (新西兰时间)
               </p>
 
 
