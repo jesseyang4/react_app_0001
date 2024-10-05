@@ -5,6 +5,7 @@ import streamImg3 from '../assets/images/stream_img3.jpg'
 import streamImg4 from '../assets/images/stream_img4.jpg'
 import streamImg5 from '../assets/images/stream_img5.jpg'
 import streamImg6 from '../assets/images/stream_img6.jpg'
+import closingImg from '../assets/images/closing.png'
 
 function IndexVideoBPage() {
   return (
@@ -62,7 +63,7 @@ function IndexVideoBPage() {
               <p className="p_text_body">悉尼时间:&emsp;&emsp;12:00-14:30</p>
               <p className="p_text_body">北京时间:&emsp;&emsp;9:00-11:30</p>
               <a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer"><img src={streamImg6} /></a>
-
+              <a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer"><img src={closingImg} /></a>
 
 
 <p  style={{marginTop: "20px"}}>

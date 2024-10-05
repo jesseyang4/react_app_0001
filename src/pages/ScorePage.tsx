@@ -142,17 +142,17 @@ function Index2Page() {
               </p>
               <img src={s1} style={{marginTop: "20px", width: "100%"}} className="sc_pos_xs sc_pos_sm sc_pos_md sc_pos_lg sc_ml_xl sc_mw_xl" />
               <img src={s2} style={{marginTop: "20px"}} />
-              <img src={s3} style={{marginTop: "20px"}} />
+              <img src={s3}  />
               <br />
 
               <p className="p_text_header_white"  style={{marginTop: "20px"}} >
               奥克兰站分组与比赛次序: 
               </p>
               <img src={s4} style={{marginTop: "20px"}} />
-              <img src={s5_1} style={{marginTop: "20px"}} />
-              <img src={s5_2} style={{marginTop: "20px"}} />
-              <img src={s6_1} style={{marginTop: "20px"}} />
-              <img src={s6_2} style={{marginTop: "20px"}} />
+              <img src={s5_1} />
+              <img src={s5_2} />
+              <img src={s6_1} />
+              <img src={s6_2} />
               <br />
 
               <p className="p_text_header">
@@ -161,9 +161,9 @@ function Index2Page() {
 
 <img src={scoreImg1} alt="" />
 
-              <p className="p_text_header">
+              {/* <p className="p_text_header">
                 <b>分组与成绩</b>: 待抽签和比赛结束后登记
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

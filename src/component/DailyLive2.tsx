@@ -6,6 +6,7 @@ import externalImg3 from '../assets/images/external_img3.jpg';
 import streamImg4 from '../assets/images/stream_img4.jpg'
 import streamImg5 from '../assets/images/stream_img5.jpg'
 import streamImg6 from '../assets/images/stream_img6.jpg'
+import closingImg from '../assets/images/closing.png'
 import '../assets/css/style.css';
 import './Articles.css';
 import { Link } from "react-router-dom";
@@ -22,6 +23,7 @@ function Articles() {
                             <div className="wrapper">
                                 <div className="box">
                                 <a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer"><img src={streamImg6} /></a>
+                                <a href="https://muimp.xet.tech/s/1Xa3S6" target="_blank" rel="noopener noreferrer"><img src={closingImg} /></a>
 
                                 </div>
                             </div>
