@@ -9,6 +9,8 @@ import s5_1 from '../assets/images/scorepage/5.1.jpg';
 import s5_2 from '../assets/images/scorepage/5.2.jpg';
 import s6_1 from '../assets/images/scorepage/6.1.jpg';
 import s6_2 from '../assets/images/scorepage/6.2.jpg';
+import r0_0 from '../assets/images/scorepage/results_0_0.jpg';
+import r0_1 from '../assets/images/scorepage/results_0_1.jpg';
 import r1 from '../assets/images/scorepage/results_1.png';
 import r2 from '../assets/images/scorepage/results_2.png';
 import r3 from '../assets/images/scorepage/results_3.png';
@@ -141,6 +143,8 @@ function Index2Page() {
           
               <p></p>
 
+              <img src={r0_0}  />
+              <img src={r0_1}  />
               <img src={r1}  />
               <img src={r2}  />
               <img src={r3}  />
