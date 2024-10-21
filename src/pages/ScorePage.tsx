@@ -9,6 +9,12 @@ import s5_1 from '../assets/images/scorepage/5.1.jpg';
 import s5_2 from '../assets/images/scorepage/5.2.jpg';
 import s6_1 from '../assets/images/scorepage/6.1.jpg';
 import s6_2 from '../assets/images/scorepage/6.2.jpg';
+import r1 from '../assets/images/scorepage/results_1.png';
+import r2 from '../assets/images/scorepage/results_2.png';
+import r3 from '../assets/images/scorepage/results_3.png';
+import r4 from '../assets/images/scorepage/results_4.png';
+import r5 from '../assets/images/scorepage/results_5.png';
+import r6 from '../assets/images/scorepage/results_6.png';
 
 function Index2Page() {
   return (
@@ -26,7 +32,7 @@ function Index2Page() {
                 textIndent: "50px"
               }}
             >
-{/* 女子WOMEN */}
+{/* 女子WOMEN
               <p className="p_header">女子组小组赛成绩</p>
               <p className="p_subheader">小组A</p>
               <p className="p_white">1 &emsp;同和星来</p>
@@ -78,7 +84,7 @@ function Index2Page() {
               <p><span className="p_white">TN</span> vs 全红&emsp;&emsp;21:18 21:16</p>
               <br />
 
-{/* 男子MEN */}
+男子MEN
               <p className="p_header">男子组小组赛成绩</p>
               <p className="p_subheader">小组A</p>
               
@@ -131,8 +137,16 @@ function Index2Page() {
               <br />
               <p>英雄 vs <span className="p_white">和风</span> 21:16 18:21 11:15</p>
               <p>联盟 vs <span className="p_white">取经</span> 12:21 18:21</p>
-              <br />
+              <br /> */}
+          
+              <p></p>
 
+              <img src={r1}  />
+              <img src={r2}  />
+              <img src={r3}  />
+              <img src={r4}  />
+              <img src={r5}  />
+              <img src={r6}  />
 
               <p className="p_text_header">
               参赛队伍

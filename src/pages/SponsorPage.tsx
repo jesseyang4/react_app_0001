@@ -95,39 +95,43 @@ function Index2Page() {
                 主办 | Host
               </p>
               <SponsorLogoEntry sponsorNameCn="新西兰气排球协会总会" sponsorNameEn="New Zealand Light Volleyball General Association" imageSrc={s1_3}  linkPath="/about" />
-              <SponsorLogoEntry sponsorNameCn="新西兰华人妇女联合基金会" sponsorNameEn="Chinese Women Association of New Zealand" imageSrc={s1_1} />
-              <SponsorLogoEntry sponsorNameCn="新西兰文化艺术基金会" sponsorNameEn="New Zealand Culture And Arts Foundation" imageSrc={s1_2} />
+              <SponsorLogoEntry sponsorNameCn="新西兰华人妇女联合基金会" sponsorNameEn="Chinese Women Association of New Zealand" imageSrc={s1_1} externalLinkPath="https://www.facebook.com/chinesewomenassociationofnewzealand/?locale=zh_CN" />
+              <SponsorLogoEntry sponsorNameCn="新西兰文化艺术基金会" sponsorNameEn="New Zealand Culture And Arts Foundation" imageSrc={s1_2} externalLinkPath="https://www.nzcaf.org" />
+              
+              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
+                特别支持 | Special Support
+              </p>
+              <SponsorLogoEntry sponsorNameCn="中国文化中心-奥克兰 China Cultural Centre" imageSrc={s4b_1} externalLinkPath="http://en.chinaculture.org/ccc/newzealand.html" />
+
+              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
+                特别协办 | Special Co-Organizer
+              </p>
+              <SponsorLogoEntry sponsorNameCn="中山大学澳洲校友会 Sun Yat-Sen University Australia Alumni Association Incorporated" imageSrc={s3_1} externalLinkPath="https://sydney.lxgz.org.cn/sydney/xwdt/2023100911331490353/index.html" />
+              <SponsorLogoEntry sponsorNameCn="中山大学新西兰校友会 Sun Yat-Sen University Alumni Association Of New Zealand" imageSrc={s3_2} externalLinkPath="https://sysu.org.nz/" />
+              <SponsorLogoEntry sponsorNameCn="新西兰国会议员橄榄球队NZ Parliamentary Rugby Team" imageSrc={s3_3} externalLinkPath="https://www.parliament.nz/mi/get-involved/features/celebrating-25-years-of-new-zealand-parliamentary-rugby" />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 承办 | Organizer
               </p>
               <SponsorLogoEntry sponsorNameCn="奥克兰- 新西兰气排球协会总会New Zealand Light Volleyball General Association" imageSrc={s2_1} linkPath="/about" />
               <SponsorLogoEntry sponsorNameCn="悉   尼 -  澳大利亚群英气排球俱乐部 Australia Heroes Light Volleyball Club" imageSrc={s2_2} linkPath="/aboutHeroes" />
-              
-              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
-                特别支持 | Special Support
-              </p>
-              <SponsorLogoEntry sponsorNameCn="中国文化中心-奥克兰 China Cultural Centre" imageSrc={s4b_1} />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
-                特别协办 | Special Co-Organizer
+                媒体主办 | Major Media
               </p>
-              <SponsorLogoEntry sponsorNameCn="中山大学澳洲校友会 Sun Yat-Sen University Australia Alumni Association Incorporated" imageSrc={s3_1} />
-              <SponsorLogoEntry sponsorNameCn="中山大学新西兰校友会 Sun Yat-Sen University Alumni Association Of New Zealand" imageSrc={s3_2} />
-              <SponsorLogoEntry sponsorNameCn="新西兰国会议员橄榄球队NZ Parliamentary Rugby Team" imageSrc={s3_3} />
-              <SponsorLogoEntry sponsorNameCn="Volleyball New Zealand" imageSrc={s3_4} />
+              <SponsorLogoEntry sponsorNameCn="Channel 33" imageSrc={s6_1} externalLinkPath="https://www.nzcmg.co.nz/" />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 特别捐助 | Special Sponsor
               </p>
-              <SponsorLogoEntry sponsorNameCn="PlaceMakers" imageSrc={s4_1} />
+              <SponsorLogoEntry sponsorNameCn="PlaceMakers" imageSrc={s4_1} externalLinkPath="https://www.placemakers.co.nz/online/" />
               {/* TODO: make the small height of above img 76% */}
-              <SponsorLogoEntry sponsorNameCn="新西兰华人建筑业协会 New Zealand Chinese Building Industry Association(NZCBIA)" imageSrc={s4_2} />
+              <SponsorLogoEntry sponsorNameCn="新西兰华人建筑业协会 New Zealand Chinese Building Industry Association(NZCBIA)" imageSrc={s4_2} externalLinkPath="http://nzcbia.org.nz/" />
 
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 协办 | Co-Organizer
               </p>
-              <SponsorLogoEntry sponsorNameCn="新西兰华商俱乐部 		New Zealand Chinese Business Club" imageSrc={s5_1a} />
+              <SponsorLogoEntry sponsorNameCn="新西兰华商俱乐部 		New Zealand Chinese Business Club" imageSrc={s5_1a} externalLinkPath="https://nzcbc.org/" />
               <SponsorLogoEntry sponsorNameCn="新西兰山东同乡会  Shandong Fellow Association of New Zealand" imageSrc={s5_1} />
               <SponsorLogoEntry sponsorNameCn="新西兰广西同乡会 New Zealand Guangxi Association INC" imageSrc={s5_2} />
               <SponsorLogoEntry sponsorNameCn="新西兰华夏文化艺术交流中心 New Zealand Chinese Culture and Arts Exchange Centre" imageSrc={s5_3} />
@@ -137,10 +141,6 @@ function Index2Page() {
               <SponsorLogoEntry sponsorNameCn="万方排球体育总会   NZWFSA" imageSrc={s5_6} linkPath="/team#nzwfsa" />
               <SponsorLogoEntry sponsorNameCn="同和排球俱乐部     VRay Volleyball Club" imageSrc={s5_7}  linkPath="/team#vray" />
 
-              <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
-                媒体主办 | Major Media
-              </p>
-              <SponsorLogoEntry sponsorNameCn="Channel 33" imageSrc={s6_1} />
               <p className="p_text_header sponsor_fs_lg sponsor_fs_xl">
                 捐助 | Donation
               </p>

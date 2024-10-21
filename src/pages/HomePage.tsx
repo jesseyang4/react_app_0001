@@ -9,8 +9,8 @@ function HomePage() {
   return (
 <div>
 <Slideshow />
-<DailyLive />
-<DailyLive2 />
+{/* <DailyLive /> */}
+{/* <DailyLive2 /> */}
 <Articles />
 </div>
   );
